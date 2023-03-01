@@ -16,7 +16,7 @@ const NavBar = () => {
       <li tabIndex={0} className="l">
         <p className="hover:bg-[#FFFFFF] roundedNone border-b-2  border-[#FFC000] mt-[-.75rem] border-opacity-0 hover:border-opacity-100 active:text-black">
           সেট ইয়োর গোল
-          <i class="fa-solid fa-chevron-down"></i>
+          <i className="fa-solid fa-chevron-down"></i>
         </p>
       </li>
       <li>

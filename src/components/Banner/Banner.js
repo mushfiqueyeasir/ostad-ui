@@ -24,11 +24,11 @@ const Banner = () => {
 
           <div className="pt-7 flex gap-x-2">
             <button className="flex gap-x-1 lg:gap-x-2 items-center font-semibold bg-[#E9EFFF] rounded-md px-3 py-2 text-xs lg:text-base">
-              <i class="fa-solid fa-book" />
+              <i className="fa-solid fa-book" />
               ৭টি লাইভ কোর্স
             </button>
             <button className="flex  gap-x-1 lg:gap-x-2 items-center font-semibold bg-[#E9EFFF] rounded-md px-3 py-2 text-xs lg:text-base">
-              <i class="fa-solid fa-people-group"></i>
+              <i className="fa-solid fa-people-group"></i>
               ১৪২৪৫ জন Ostad গ্র্যাজুয়েট
             </button>
           </div>
@@ -36,7 +36,7 @@ const Banner = () => {
           <div className="pt-7 flex gap-x-2">
             <button className="flex gap-x-2 items-center font-semibold bg-[#FFCD33] hover:bg-[#FFC000]  hover:border-[#FFC000] active:bg-[#FFAB00] active:border-[#FFAB00] border-2 border-[#FFCD33] rounded-md px-5 py-3 text-white">
               START LEARNING
-              <i class="fa-solid fa-arrow-right"></i>
+              <i className="fa-solid fa-arrow-right"></i>
             </button>
             <button className="flex gap-x-2 items-center font-semibold bg-[#F9F9FA] hover:bg-[#FFE699] rounded-md px-5 py-3 border-[1px] border-black">
               ASSESSMENT

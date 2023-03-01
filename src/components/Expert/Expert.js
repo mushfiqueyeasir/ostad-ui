@@ -65,7 +65,7 @@ const Expert = ({ expertData }) => {
             </p>
           </div>
 
-          <div className="lg:py-10">
+          <div className=" py-6 pb-14 lg:py-10">
             <Slider {...settings}>{renderSlides}</Slider>
           </div>
         </div>

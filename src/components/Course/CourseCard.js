@@ -38,7 +38,7 @@ const CourseCard = ({ data, even }) => {
                 : `text-white rounded-md lg:px-3 lg:py-2 bg-[#475467] flex items-center  gap-x-1 font-semibold p-1 text-[.6rem] lg:text-base`
             }
           >
-            <i class="fa-solid fa-people-group"></i>
+            <i className="fa-solid fa-people-group"></i>
             {sit}
           </button>
           <button
@@ -48,7 +48,7 @@ const CourseCard = ({ data, even }) => {
                 : `text-white rounded-md lg:px-3 lg:py-2 bg-[#475467] flex items-center  gap-x-1 font-semibold p-1 text-[.6rem] lg:text-base`
             }
           >
-            <i class="fa-regular fa-clock"></i>
+            <i className="fa-regular fa-clock"></i>
             {time}
           </button>
         </div>
@@ -79,7 +79,7 @@ const CourseCard = ({ data, even }) => {
             }
           >
             {nextButton}
-            <i class="fa-solid fa-arrow-right"></i>
+            <i className="fa-solid fa-arrow-right"></i>
           </button>
         </div>
       </div>

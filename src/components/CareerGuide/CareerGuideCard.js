@@ -10,7 +10,7 @@ const CareerGuideCard = ({ data }) => {
         </figure>
         <div className="flex flex-col gap-y-2 py-6  px-4">
           <h2 className="flex items-center font-semibold gap-2 text-white px-6 lg:text-xl ">
-            <i class="fa-regular fa-circle-play" />
+            <i className="fa-regular fa-circle-play" />
             {title}
           </h2>
           <hr className="border-[1px]  border-[#475467]" />

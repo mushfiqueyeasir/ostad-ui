@@ -19,14 +19,14 @@ const CommunityCard = ({ data }) => {
       <div className="flex flex-col gap-y-4">
         <div>
           <button className="flex items-center gap-2 p-2 bg-[#E9EFFF] rounded-md">
-            <i class="fa-solid fa-people-group"></i>
+            <i className="fa-solid fa-people-group"></i>
             {member}
           </button>
         </div>
 
         <h2 className="text-xl lg:text-2xl font-bold ">{title}</h2>
         <button className="rounded-md bg-[#EAECF0] hover:bg-[#D0D5DD]  active:bg-[#98A2B3] flex justify-center items-center gap-2 p-3  text-center  font-bold text-lg">
-          {join} <i class="fa-brands fa-facebook"></i>
+          {join} <i className="fa-brands fa-facebook"></i>
         </button>
       </div>
     </div>

@@ -64,19 +64,19 @@ const Footer = () => {
 
             <div className="flex flex-col gap-4 pt-6 text-lg font-semibold">
               <h2 className="flex items-center gap-2 cursor-pointer">
-                <i class="fa-solid fa-phone"></i>
+                <i className="fa-solid fa-phone"></i>
                 <span className="hover:text-[#FF8C4B] hover:underline">
                   01781-611903
                 </span>
               </h2>
               <h2 className="flex items-center gap-2  cursor-pointer">
-                <i class="fa-regular fa-envelope"></i>
+                <i className="fa-regular fa-envelope"></i>
                 <span className="hover:text-[#FF8C4B] hover:underline">
                   support@ostad.app
                 </span>
               </h2>
               <h2 className="flex items-center gap-2 cursor-pointer">
-                <i class="fa-solid fa-location-dot"></i>
+                <i className="fa-solid fa-location-dot"></i>
                 <span className="hover:text-[#FF8C4B] hover:underline">
                   Ka-6/a, Navana Sylvania, Baridhara Road, Nadda, Gulshan-2,
                   Dhaka-1212
