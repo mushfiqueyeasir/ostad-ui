@@ -1,0 +1,140 @@
+
+.sliderBox .slick-dots {
+    margin-bottom: -20px !important;
+  }
+  .slick-track {
+    display: flex !important;
+    gap: 10px ;
+  }
+
+  .custom-arrow { 
+    position: absolute;
+    top: 50%; 
+    z-index: 1;
+  }
+  
+  .custom-arrow-left {
+    left: -70px;
+  }
+  .custom-arrow-expert-left {
+    left: -70px;
+ } 
+ .custom-arrow-resource-left {
+  left: -70px;
+}
+  
+  .custom-arrow-right {
+    right: -70px;
+  }
+  .custom-arrow-expert-right {
+    right: -70px;
+  }
+  .custom-arrow-resource-right {
+    right: -70px;
+  }
+  .custom-arrow-blog-right {
+    right: -70px;
+  }
+  .custom-arrow-blog-right {
+    right: -70px;
+  }
+    
+  
+
+  .slick-dots > .slick-active{
+    background-color: #FFAB00 !important;
+}
+.slick-dots li{
+  width: 12px;
+  height: 12px;
+  background-color: #D0D5DD;
+  border-radius: 100%;
+  margin-right: 15px;
+}
+.slick-dots li button{
+    opacity: 0;
+}
+
+.slick-active > button{
+    opacity: 0;       
+}
+.slick-dots{
+  display: flex;
+  position: absolute;
+  bottom:-50px;
+}
+.slick-arrow{
+
+}
+ .slick-next{
+  display: none!important;
+}
+  
+  @media only screen and (max-width: 500px) {
+    .slick-track {
+        gap: 40px ;
+      }
+    .slick-dots{
+        display: flex;
+        position: absolute;
+        bottom:0px;
+        left:-90px;
+    }
+    .custom-arrow{ 
+        position: relative !important;
+        top: 0%; 
+        z-index: 1;
+    }
+    .slick-dots li{
+        width: 12px;
+        height: 12px;
+        background-color: #D0D5DD;
+        border-radius: 100%;
+        margin-right: 15px;
+    }
+    .slick-dots li button{
+        opacity: 0;
+    }
+    .slick-active{
+        width: 12px;
+        height: 12px;
+        border-radius: 100%;
+    }
+    .slick-active > button{
+        opacity: 0;       
+    }
+    .custom-arrow-right {
+        left: 310px;
+        bottom: -20px;
+      }
+      .custom-arrow-left {
+        left: 250px;
+        bottom: -390px;
+      }
+      .custom-arrow-expert-right {
+        left: 310px;
+        bottom: -20px;
+      }
+      .custom-arrow-expert-left {
+        left: 250px;
+        bottom: -440px;
+      }
+      .custom-arrow-resource-left {
+        left: 250px;
+        bottom: -495px;
+      }
+      .custom-arrow-resource-right {
+        left: 310px;
+        bottom: -20px;
+      }
+
+      .custom-arrow-blog-left {
+        left: 250px;
+        bottom: -373px;
+      }
+      .custom-arrow-blog-right {
+        left: 310px;
+        bottom: -20px;
+      }
+      
+  }
