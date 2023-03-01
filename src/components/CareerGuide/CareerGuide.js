@@ -56,7 +56,7 @@ const CareerGuide = ({ careerData }) => {
           এক্সপার্টদের ক্যারিয়ার গাইডলাইন
         </div>
 
-        <div className="lg:pt-10">
+        <div className="pb-10 lg:pt-10">
           <Slider {...settings}>{renderSlides}</Slider>
         </div>
       </div>

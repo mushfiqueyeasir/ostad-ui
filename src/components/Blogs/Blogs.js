@@ -69,7 +69,7 @@ const Blogs = ({ blogsData }) => {
             ))}
           </div>
 
-          <div className="md:hidden py-6 mt-10">
+          <div className="pb-14 md:hidden py-6 mt-10">
             <Slider {...settings}>{renderSlides}</Slider>
           </div>
         </div>

@@ -29,11 +29,11 @@ const ResourceCard = ({ data }) => {
 
         <div className="text-[#475467] flex items-center gap-4 py-4 px-4 text-xl">
           <div className="flex items-center gap-2">
-            <i class="fa-regular fa-clock" />
+            <i className="fa-regular fa-clock" />
             {time}
           </div>
           <div className="flex items-center gap-2">
-            <i class="fa-regular fa-calendar"></i>
+            <i className="fa-regular fa-calendar"></i>
             {date}
           </div>
         </div>

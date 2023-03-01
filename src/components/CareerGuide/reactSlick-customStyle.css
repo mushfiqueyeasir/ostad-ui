@@ -77,11 +77,10 @@
     .slick-dots{
         display: flex;
         position: absolute;
-        bottom:0px;
+        bottom:-50px;
         left:-90px;
     }
     .custom-arrow{ 
-        position: relative !important;
         top: 0%; 
         z-index: 1;
     }
@@ -105,7 +104,7 @@
     }
     .custom-arrow-right {
         left: 310px;
-        bottom: -20px;
+        bottom: -390px;
       }
       .custom-arrow-left {
         left: 250px;
@@ -113,7 +112,7 @@
       }
       .custom-arrow-expert-right {
         left: 310px;
-        bottom: -20px;
+        bottom: -440px;
       }
       .custom-arrow-expert-left {
         left: 250px;
@@ -125,7 +124,7 @@
       }
       .custom-arrow-resource-right {
         left: 310px;
-        bottom: -20px;
+        bottom: -495px;
       }
 
       .custom-arrow-blog-left {
@@ -134,7 +133,7 @@
       }
       .custom-arrow-blog-right {
         left: 310px;
-        bottom: -20px;
+        bottom: -375px;
       }
       
   }
